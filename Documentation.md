@@ -86,11 +86,11 @@ Failed attempts counter reset: 30 minutes
 
 ## Audit Policy 
 
-Audit trail Logons: Enabled 
+Audit Logon: Enabled 
 
-Audit trail Logoff: Enabled 
+Audit Logoff: Enabled 
 
-Audit trail Account Lockout: Enabled 
+Audit Account Lockout: Enabled 
 
 ![audit](https://github.com/skolesnik44/active-directory-project/assets/172089307/baea047b-9d50-4e4c-8f2c-d8f782c0f6b9)
 
