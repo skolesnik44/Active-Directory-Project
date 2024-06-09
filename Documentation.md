@@ -1,4 +1,6 @@
-# Introduction 
+# Secure Active Directory Domain
+
+## Introduction 
 
 This Active Directory project is an extension of my Packet Tracer project; this domain uses the same ip addressing scheme and departments as my Packet Tracer project 
 
@@ -12,7 +14,6 @@ I created 3 security groups in this domain: **HR, IT and Marketing**
 <img src="https://github.com/skolesnik44/active-directory-project/assets/172089307/c960d54f-e357-4a0e-9373-1680ea989982" width="300" style="height:auto;">
 
 <img src="https://github.com/skolesnik44/active-directory-project/assets/172089307/bde58704-663f-43d9-b922-5a9ee7607148" width="300" style="height:auto;">
-
 
 ## Shared Folders:
  
@@ -38,25 +39,22 @@ I set up two inbound firewall rules: **alloworg** and **denyall**
 
 The rule ‘**alloworg**’ allows inbound connections from the network segments defined in my Packet Tracer project i.e. HR, Marketing, IT, Server Room and Secured Area for Remote Administration 
 
-![Capture](https://github.com/skolesnik44/active-directory-project/assets/172089307/dbf21ce2-bdcb-4f36-9e71-7f05de5c7829)
+<img src="https://github.com/skolesnik44/active-directory-project/assets/172089307/dbf21ce2-bdcb-4f36-9e71-7f05de5c7829" width="300" style="height:auto;">
 
 
- 
+The rule ‘**denyall**’ denies all inbound traffic except from IP addresses defined in ‘alloworg’ due to rule priority
 
-The rule ‘**denyall**’ denies all inbound traffic except from IP addresses defined in ‘alloworg’ due to rule priority 
-![Capture2](https://github.com/skolesnik44/active-directory-project/assets/172089307/57fa214e-bec1-42a7-ac2c-fd2cc5bf78ac)
+<img src="https://github.com/skolesnik44/active-directory-project/assets/172089307/57fa214e-bec1-42a7-ac2c-fd2cc5bf78ac" width="300" style="height:auto;">
 
- 
-
- 
 
 ## Set Default Organization Software: 
 
  
 I made a policy which installs the anti-virus 360TotalSecurity (**for demonstration purposes**) on all computers connected to the domain. Additionally, I have set an option that automatically removes the program from all computers if the policy is removed from Active Directory. 
 
-![Capture2](https://github.com/skolesnik44/active-directory-project/assets/172089307/2708ccc4-4356-4bf5-8b4d-c219ca806400)
-![Capture](https://github.com/skolesnik44/active-directory-project/assets/172089307/01506d41-b6be-48e7-8144-03a38ecbf33f)
+<img src="https://github.com/skolesnik44/active-directory-project/assets/172089307/01506d41-b6be-48e7-8144-03a38ecbf33f" width="300" style="height:auto;">
+<img src="https://github.com/skolesnik44/active-directory-project/assets/172089307/2708ccc4-4356-4bf5-8b4d-c219ca806400" width="600" style="height:auto;">
+
 
 
  
